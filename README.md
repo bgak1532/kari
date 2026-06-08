@@ -320,6 +320,40 @@ A few ground rules:
 - Wrap errors with `%w`
 - Kari does not host or distribute copyrighted content. Contributions that add DRM circumvention or direct content hosting will not be accepted.
 
+## Troubleshooting
+
+### macOS — "Kari cannot be opened" or "damaged"
+
+Downloaded binaries get flagged by Gatekeeper. Clear the quarantine attribute:
+
+```bash
+xattr -d com.apple.quarantine ./kari
+```
+
+If you built from source, this doesn't apply.
+
+### Linux — "Permission denied"
+
+```bash
+chmod +x ./kari
+```
+
+### Windows — "Windows protected your PC"
+
+Click **More info** → **Run anyway**. SmartScreen flags unsigned binaries — the binary is clean, it just isn't code-signed.
+
+### Android — MPV not launching
+
+MPV Android is installed from the Play Store, not from Termux packages. See the [Android setup](#android-setup-termux) section above.
+
+### No player detected
+
+Make sure your player is in `$PATH`. Run `which mpv` (or `which iina`, `which vlc`) to verify.
+
+### Logs
+
+Written to `~/.config/kari/kari.log`. Set `KARI_LOG_DEBUG=true` for verbose output.
+
 ## License
 
 MIT
