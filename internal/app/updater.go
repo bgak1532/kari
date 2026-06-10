@@ -50,7 +50,8 @@ func update(quiet bool) error {
 	}
 
 	latestVersion := strings.TrimPrefix(latest.TagName, "v")
-	if latestVersion == Version {
+	currentVersion := strings.TrimSuffix(Version, "-dirty")
+	if latestVersion == currentVersion {
 		if !quiet {
 			fmt.Printf("Kari is already up to date (version %s).\n", Version)
 		}
